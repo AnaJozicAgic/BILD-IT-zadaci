@@ -6,7 +6,14 @@ import java.util.InputMismatchException;
 public class ProstiBrojevi {
 	// Method for finding and displaying prime numbers
 	public static void prostiBrojevi(int first, int second, int linije) {
-
+		
+		// Switching places if first value is larger than second value
+		int temp = 0;
+		if (first > second) {
+			temp = first;
+			first = second;
+			second = temp;
+		}
 		// ArrayList for collecting prime numbers
 		ArrayList<Integer> primarni = new ArrayList<>();
 
@@ -69,7 +76,7 @@ public class ProstiBrojevi {
 			System.out.println(" Zao mi je trbali ste unijeti brojcane vrijednosti");
 
 		}
-input.close();
+		input.close();
 	}
 
 }
