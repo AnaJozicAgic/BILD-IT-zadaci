@@ -13,7 +13,7 @@ public class SSN {
 		} else {
 			return false;
 		}
-	}
+	}    
 
 	public static void main(String[] args) {
 		try {
