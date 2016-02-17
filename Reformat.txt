@@ -1,0 +1,7 @@
+public class Reformat
+{
+public static void main(String[] args)
+    {
+        // Some statements
+    }
+}
